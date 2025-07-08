@@ -1,0 +1,56 @@
+# Dependencies
+node_modules/
+.venv310/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Environment variables
+.env
+*.env
+
+# API Keys (security)
+google_credentials.json
+*api_key*
+
+# Logs
+*.log
+api.log
+
+# Build outputs
+build/
+dist/
+
+# Temporary files
+uploaded_files/
+temp/
+*.tmp
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Large data files
+training_data/
+processed_pdfs/
+scraped_patterns/
+*.jsonl
+*.faiss
+*.pkl
+
+# Model files (too large for GitHub)
+crochet_pattern_model/
+advanced_crochet_model/
+best_crochet_model/
+final_crochet_model/
+
+# Test files
+test.pdf
